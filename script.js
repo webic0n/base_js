@@ -216,26 +216,5 @@ const myArr = [1,2,3,4,5,6,7,8,9];
 //     return arr;
 // }
 
-
-const mySplice = (a,b) => {
-    let arr = [1,2,3,4,5,6];
-    for ( i=a ; i < arr.length; i++ ){
-    if( b>0 ){
-    delete (arr[i]);
-    b--
-    }
-    }
-    Array.prototype.funcDelete = function(arr){
-        newArr = [];
-        for(let i = 0 ; i< arr.length; i++){
-            if (arr[i] !== undefined){
-                newArr.push(arr[i])
-            }
-        }
-        return newArr;
-    }
-    arr.funcDelete();   
-    return arr;
-}
 //new coment
 //my test commit
