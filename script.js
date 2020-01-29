@@ -237,3 +237,4 @@ const mySplice = (a,b) => {
     arr.funcDelete();   
     return arr;
 }
+//new coment
