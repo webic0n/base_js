@@ -202,19 +202,18 @@ cashUsers(nikita)
 console.log(cash.get(maxim))
 console.log(cash.has(nikita))
 
-*/
+
 const myArr = [1,2,3,4,5,6,7,8,9];
 
-// Array.prototype.mySplice = function(a,b){
-//     var arr = this;
-//     while( b>0 ){
-//         delete this[a];
-//         a++;
-//         b--
-//     }
-//     arr = arr.filter( a => a !== undefined);
-//     return arr;
-// }
+Array.prototype.mySplice = function(a,b){
+    var arr = this;
+    while( b>0 ){
+        delete this[a];
+        a++;
+        b--
+    }
+    arr = arr.filter( a => a !== undefined);
+    return arr;
+}
 
-//new coment
-//my test commit
+*/
